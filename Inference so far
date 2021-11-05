@@ -1,0 +1,7 @@
+1) the accuaracy of xception model exceeeds that of a custom CNN as expected.
+2) when, the layers were frozen(before fine-tuning), we can see the model doesn't perform as expected
+the reason being, the weights at that point of training is determined via chances, whereas after unfreezing the layers, we get a really good model
+(weights getting trained acccording to features recognised)
+No wonder xception won the model of the year as its performance is impeccable
+if a different dataset, something similiar to imagenet were to be used...the performance would be even better, as it is pretraiend on imagenet with good 
+weights and bias.
